@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { getAllPokemon, getPokemon } from "./utils/pokemon.js";
-import Card from "./components/Card";
+import Card from "./components/Card/Card";
 
 function App() {
   const initialURL = "https://pokeapi.co/api/v2/pokemon";
